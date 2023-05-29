@@ -1,5 +1,8 @@
-x = [0,1,2,3,4,5,6,7,8,9]
-print(x[::3])
+#1 вар.
+print([x for x in range(0,10)if x%3==0])
 
-y = list(range(30))
-print(y[::3])
+#2 вар.
+x = list(range(0,10))
+for i in x:
+    if i%3==0:
+        print(i)
